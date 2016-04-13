@@ -1,3 +1,6 @@
+W205 Exercise 2 Readme
+Sally Hong
+
 1. Create and run EC2 instance with AMI 'ucbw205_complete_plus_postgres_PY2.7 (ami-558fc730)'
 	m3.medium was used for this exercise.
 2. Install postgres (follow the below instructions or you can can use shell script from earlier lab)
@@ -70,4 +73,4 @@
 	b. histogram.py
 		Run with argument MIN,MAX (e.g. 3,8) for a list of words and their counts between MIN and MAX inclusive sorted in ascending order by word.
 	c. top20hist.py
-		i. Will generate PNG file of bar plot of top 20 words and counts in same directory.
+		Will generate PNG file of bar plot of top 20 words and counts in same directory.
