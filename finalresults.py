@@ -8,7 +8,6 @@ conn = psycopg2.connect(database="tcount", user="postgres", password="pass", hos
 cur = conn.cursor()
     
 if total > 1:
-	print sys.argv
     for i in range(1,total)
         input_word = sys.argv[i]
         cur.execute("""SELECT count FROM Tweetwordcount WHERE word=%s""", (input_word,))
